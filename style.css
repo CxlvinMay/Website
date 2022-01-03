@@ -1,0 +1,75 @@
+head {
+                background-color: cyan;
+            }
+
+            body {
+                background-color: dodgerblue;
+            }
+
+            h1 {
+                position: absolute;
+                padding: 3px;
+                float: left;
+                margin-left: 2%;
+                margin-top: 10px;
+                font-family: monospace;
+                color: blanchedalmond;
+            }
+
+            ul {
+                width: auto;
+                float: left;
+                margin-top: 8px;
+            }
+
+            li {
+                display: inline-block;
+                padding: 15px 30px;
+            }
+
+            a {
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                font-family: monospace;
+                font-size: 1.2vw;
+            }
+
+            a:hover{
+                color:black;
+                transition: 0.5s;
+            }
+
+            p {
+                font-size: 50px;
+                font-family: monospace;
+                text-align: center;
+                color: white;
+            }
+
+            body, html {
+                margin: 0;
+                padding: 0;
+            }
+            
+            header {
+                width: 100%;
+                height: 70px;
+                background-color: black;
+            }
+
+            h2 {
+                font-size: 100px;
+                font-family: monospace;
+                color: white;
+            }
+            
+            @media only screen and (max-width: 1000px) {
+                a {
+                    text-align: center;
+                    color: white;
+                    text-decoration: none;
+                    font-family: monospace;
+                    font-size: calc(1.2vw + 2.8vw);
+                }
+            }
