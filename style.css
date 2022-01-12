@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: "dodgerblue";
+  background-color: dodgerblue;
   height: 100vh;
   justify-content: center;
   font-family: 'Lato', sans-serif;
